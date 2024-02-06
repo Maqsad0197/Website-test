@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 1px;
+}
+
+.main{
+    width:110%;
+    background: url(fon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position:relative;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left:-2%;
+}
+
+ul{
+    margin-top: 1%;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+   ;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(186, 217, 109);
+    margin-top: -3%;
+    transition: .4s ease;
+   
+}
+ 
+ul li a:hover{
+    color:rgb(0, 191, 255);
+
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgba(223, 80, 80, 0.919);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(233, 232, 230);
+}
+
+.info span{
+    color:  rgb(14, 226, 109);
+}
+
+.info a{
+    text-decoration: none;
+    color:#fff;
+    background: rgb(61, 140, 25);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display:inline-block;
+}
+.info a:hover{
+    background: rgb(71, 158, 187);
+
+
+}
+.image{
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    top: -10px;
+    height: 100%;
+    left:10%;
+    transform: translate(-30%);
+    bottom: -120px;
+    transition: left 2s ease;
+    margin-left: 260%;
+    border-radius: 50%;
+    height: 550px;
+    
+}
+.image:hover .m{
+ left:54%
+ 
+}
+
+.icons a{
+  text-decoration: none;
+  color: rgb(137, 161, 146);
+}
+
+.icons ion-icon {
+    margin-left: 7%;
+    color: burlywood;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: aqua;
+}
